@@ -29,6 +29,8 @@ def index(request):
 def portfolio(request):
     return render(request, 'mypf/portfolio.html')
 
+def my_life(request):
+    return render(request, 'mypf/my_life.html')
 
 # Contact View
 def contact(request):
